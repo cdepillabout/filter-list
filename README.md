@@ -1,2 +1,3 @@
 # filter-list
-A filter list for various things on the web
+
+This is my own filter list for various things on the web.  Check the file [list.txt](./list.txt) for the details.
