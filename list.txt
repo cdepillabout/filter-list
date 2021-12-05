@@ -7,3 +7,11 @@
 ! License: BSD3
 
 hello
+
+!!!!!!!!!!!!!
+!! *NOTES* !!
+!!!!!!!!!!!!!
+! - each filter is treated as if it has a wild card in the beginning and
+!   end of it.  Use a double pipe (`||`) to make sure that the domain is
+!   matched exactly.
+
