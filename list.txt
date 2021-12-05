@@ -34,3 +34,13 @@ hello
 ! Hide various other unneccessary sidebars.
 !###sidebar .js-sidebar-zone
 !###sidebar .s-sidebarwidget
+
+!!!!!!!!!!!!!
+!! Twitter !!
+!!!!!!!!!!!!!
+
+! I don't remember what this blocks.
+!twitter.com##.conversations-enabled
+
+! Block home timeline.
+!twitter.com##div[aria-label$="Your Home Timeline"]
