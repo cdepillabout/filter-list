@@ -48,15 +48,15 @@ twitter.com##div[aria-label$="Your Home Timeline"]
 !!!!!!!!!!!!!
 
 ! Hide comments.
-!||youtube.com##ytd-comments
+||youtube.com##ytd-comments
 
 ! Hide the sidebar.
 !!||youtube.com###secondary
 
 ! Block most content from the home page.
-!||youtube.com##ytd-browse[page-subtype="home"]
+||youtube.com##ytd-browse[page-subtype="home"]
 
 ! Block most content from the sidebar.
-!||youtube.com###related ytd-compact-radio-renderer
-!||youtube.com###related ytd-compact-video-renderer
-!||youtube.com###related ytd-compact-playlist-renderer
+||youtube.com###related ytd-compact-radio-renderer
+||youtube.com###related ytd-compact-video-renderer
+||youtube.com###related ytd-compact-playlist-renderer
