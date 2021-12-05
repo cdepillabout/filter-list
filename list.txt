@@ -38,10 +38,10 @@
 !!!!!!!!!!!!!
 
 ! I don't remember what this blocks.
-!twitter.com##.conversations-enabled
+twitter.com##.conversations-enabled
 
 ! Block home timeline.
-!twitter.com##div[aria-label$="Your Home Timeline"]
+twitter.com##div[aria-label$="Your Home Timeline"]
 
 !!!!!!!!!!!!!
 !! YouTube !!
