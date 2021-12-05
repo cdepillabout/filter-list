@@ -1,0 +1,61 @@
+! Title: cdepillabout filter list
+! Description: Filter various annoying things on websites
+! Version: 1.0.0
+! Expires: 1 hour (update frequency)
+! Homepage: https://github.com/cdepillabout/filter-list
+! License: BSD3
+
+!!!!!!!!!!!!!
+!! *NOTES* !!
+!!!!!!!!!!!!!
+! - each filter is treated as if it has a wild card in the beginning and
+!   end of it.  Use a double pipe (`||`) to make sure that the domain is
+!   matched exactly.
+
+!!!!!!!!!!!!
+!! GitHub !!
+!!!!!!!!!!!!
+
+! Block GitHub recommendations.  From
+! https://raw.githubusercontent.com/balupton/filters/master/filter-vanity.txt.
+! Other filters in this file are also from here.
+||github.com##aside[aria-label=Explore]
+
+!!!!!!!!!!!!!!!!!!!
+!! StackOverflow !!
+!!!!!!!!!!!!!!!!!!!
+
+! Hide Network questions.
+###hot-network-questions
+
+! Hide various other unneccessary sidebars.
+###sidebar .js-sidebar-zone
+###sidebar .s-sidebarwidget
+
+!!!!!!!!!!!!!
+!! Twitter !!
+!!!!!!!!!!!!!
+
+! I don't remember what this blocks.
+twitter.com##.conversations-enabled
+
+! Block home timeline.
+twitter.com##div[aria-label$="Your Home Timeline"]
+
+!!!!!!!!!!!!!
+!! YouTube !!
+!!!!!!!!!!!!!
+
+! Hide comments.
+||youtube.com##ytd-comments
+
+! Hide the sidebar.
+!||youtube.com###secondary
+
+! Block most content from the home page.
+||youtube.com##ytd-browse[page-subtype="home"]
+
+! Block most content from the sidebar.
+||youtube.com###related ytd-compact-radio-renderer
+||youtube.com###related ytd-compact-video-renderer
+||youtube.com###related ytd-compact-playlist-renderer
