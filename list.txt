@@ -27,11 +27,14 @@
 !!!!!!!!!!!!!!!!!!!
 
 ! Hide Network questions.
-###hot-network-questions
+stackexchange.com###hot-network-questions
+stackoverflow.com###hot-network-questions
 
 ! Hide various other unneccessary sidebars.
-###sidebar .js-sidebar-zone
-###sidebar .s-sidebarwidget
+stackexchange.com###sidebar .js-sidebar-zone
+stackexchange.com###sidebar .s-sidebarwidget
+stackoverflow.com###sidebar .js-sidebar-zone
+stackoverflow.com###sidebar .s-sidebarwidget
 
 !!!!!!!!!!!!!
 !! Twitter !!
