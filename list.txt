@@ -27,10 +27,13 @@
 !!!!!!!!!!!!!!!!!!!
 
 ! Hide Network questions.
+serverfault.com###hot-network-questions
 stackexchange.com###hot-network-questions
 stackoverflow.com###hot-network-questions
 
 ! Hide various other unneccessary sidebars.
+serverfault.com###sidebar .js-sidebar-zone
+serverfault.com###sidebar .s-sidebarwidget
 stackexchange.com###sidebar .js-sidebar-zone
 stackexchange.com###sidebar .s-sidebarwidget
 stackoverflow.com###sidebar .js-sidebar-zone
