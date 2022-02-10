@@ -30,6 +30,7 @@ github.com##aside[aria-label=Explore]
 serverfault.com###hot-network-questions
 stackexchange.com###hot-network-questions
 stackoverflow.com###hot-network-questions
+superuser.com###hot-network-questions
 
 ! Hide various other unneccessary sidebars.
 serverfault.com###sidebar .js-sidebar-zone
@@ -38,6 +39,8 @@ stackexchange.com###sidebar .js-sidebar-zone
 stackexchange.com###sidebar .s-sidebarwidget
 stackoverflow.com###sidebar .js-sidebar-zone
 stackoverflow.com###sidebar .s-sidebarwidget
+superuser.com###sidebar .js-sidebar-zone
+superuser.com###sidebar .s-sidebarwidget
 
 !!!!!!!!!!!!!
 !! Twitter !!
