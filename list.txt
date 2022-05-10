@@ -36,12 +36,15 @@ reddit.com#?#div:-abp-has(> div > input[name="createPost"])
 !!!!!!!!!!!!!!!!!!!
 
 ! Hide Network questions.
+askubuntu.com###hot-network-questions
 serverfault.com###hot-network-questions
 stackexchange.com###hot-network-questions
 stackoverflow.com###hot-network-questions
 superuser.com###hot-network-questions
 
 ! Hide various other unneccessary sidebars.
+askubuntu.com###sidebar .js-sidebar-zone
+askubuntu.com###sidebar .s-sidebarwidget
 serverfault.com###sidebar .js-sidebar-zone
 serverfault.com###sidebar .s-sidebarwidget
 stackexchange.com###sidebar .js-sidebar-zone
