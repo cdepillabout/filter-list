@@ -26,10 +26,15 @@ github.com##aside[aria-label=Explore]
 !! Reddit !!
 !!!!!!!!!!!!
 
-! Block pages that have lists of posts.  This makes it so that I can go a,
-! post on reddit if I get there through search results or links, but I can't
-! just browse reddit.
+! Block pages on reddit that are just lists of posts, like the reddit homepage or specific
+! subreddits.  This makes it so that I can go to a post on reddit if I get there through
+! search results or links, but I can't just browse reddit.
+
+! This blocks some styles of pages.
 reddit.com#?#div:-abp-has(> div > input[name="createPost"])
+
+! This blocks some other styles of pages.
+reddit.com#?#div:-abp-has(> div > div > a > i[class*="icon-hot_fill"])
 
 !!!!!!!!!!!!!!!!!!!
 !! StackOverflow !!
