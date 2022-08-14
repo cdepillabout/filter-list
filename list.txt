@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: cdepillabout filter list
 ! Description: Filter various annoying things on websites
-! Version: 1.0.7
+! Version: 1.0.8
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/cdepillabout/filter-list
 ! License: BSD3
@@ -37,6 +37,9 @@ reddit.com#?#div:-abp-has(> div > input[name="createPost"])
 
 ! This blocks some other styles of pages.
 reddit.com#?#div:-abp-has(> div > div > a > i[class*="icon-hot_fill"])
+
+! Completely block old.reddit.com
+old.reddit.com
 
 !!!!!!!!!!!!!!!!!!!
 !! StackOverflow !!
