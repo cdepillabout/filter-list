@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: cdepillabout filter list
 ! Description: Filter various annoying things on websites
-! Version: 1.0.9
+! Version: 1.0.10
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/cdepillabout/filter-list
 ! License: BSD3
@@ -34,6 +34,13 @@ github.com##aside[aria-label=Explore]
 
 ! Block the front page of Hacker News (but not comment pages)
 news.ycombinator.com##table[cellspacing="0"][cellpadding="0"][border="0"]:not(#hnmain)
+
+!!!!!!!!!!!!
+!! Medium !!
+!!!!!!!!!!!!
+
+! Hide recommended sidebar on Medium
+medium.com#?#div:-abp-has(> div > h2:-abp-contains(More from))
 
 !!!!!!!!!!!!
 !! Reddit !!
