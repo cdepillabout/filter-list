@@ -23,10 +23,8 @@
 !! GitHub !!
 !!!!!!!!!!!!
 
-! Block GitHub recommendations.  From
-! https://raw.githubusercontent.com/balupton/filters/master/filter-vanity.txt.
-! Other filters in this file are also from here.
-github.com##aside[aria-label=Explore]
+! Block GitHub repository recommendations.
+github.com##div[aria-label="Explore repositories"]
 
 !!!!!!!!!!!!!!!!!
 !! Hacker News !!
