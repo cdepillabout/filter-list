@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: cdepillabout filter list
 ! Description: Filter various annoying things on websites
-! Version: 1.0.13
+! Version: 1.0.14
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/cdepillabout/filter-list
 ! License: BSD3
@@ -62,6 +62,9 @@ reddit.com#?#div:-abp-has(> div > div > h2:-abp-contains(Similar to this post))
 
 ! Block list of recent posts from the same subreddit
 reddit.com#?#div:-abp-contains(More posts) ~ div
+
+! Block reddit posts on mobile
+reddit.com##article.Post.m-redesign
 
 !!!!!!!!!!!!!!!!!!!
 !! StackOverflow !!
