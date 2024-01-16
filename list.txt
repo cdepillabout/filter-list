@@ -33,6 +33,12 @@ github.com##div[aria-label="Explore repositories"]
 ! Block the front page of Hacker News (but not comment pages)
 news.ycombinator.com##table[cellspacing="0"][cellpadding="0"][border="0"]:not(#hnmain)
 
+!!!!!!!!!!!!!!!!!!!!!!!!
+!! Hacker News Mirror !!
+!!!!!!!!!!!!!!!!!!!!!!!!
+
+hckrnews.com
+
 !!!!!!!!!!!!
 !! Medium !!
 !!!!!!!!!!!!
