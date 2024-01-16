@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: cdepillabout filter list
 ! Description: Filter various annoying things on websites
-! Version: 1.0.16
+! Version: 1.0.17
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/cdepillabout/filter-list
 ! License: BSD3
@@ -37,7 +37,7 @@ news.ycombinator.com##table[cellspacing="0"][cellpadding="0"][border="0"]:not(#h
 !! Hacker News Mirror !!
 !!!!!!!!!!!!!!!!!!!!!!!!
 
-hckrnews.com
+https://hckrnews.com
 
 !!!!!!!!!!!!
 !! Medium !!
