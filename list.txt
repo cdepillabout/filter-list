@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: cdepillabout filter list
 ! Description: Filter various annoying things on websites
-! Version: 1.0.17
+! Version: 1.0.18
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/cdepillabout/filter-list
 ! License: BSD3
@@ -74,6 +74,9 @@ reddit.com##article.Post.m-redesign
 
 ! Block the right-side bar that contains recommended posts
 reddit.com##pdp-right-rail
+
+! Block the whole reddit feed
+reddit.com##shreddit-feed
 
 !!!!!!!!!!!!!!!!!!!
 !! StackOverflow !!
