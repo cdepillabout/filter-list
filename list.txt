@@ -113,6 +113,7 @@ twitter.com##.conversations-enabled
 
 ! Block home timeline.
 twitter.com##div[aria-label$="Your Home Timeline"]
+twitter.com##div[aria-label$="Timeline: Your Home Timeline"]
 
 ! List of "More Tweets" shown at the bottom of a page.
 twitter.com#?#div:-abp-has(> div > div > div > h2 > div > span:-abp-contains(More Tweets)) ~ div
