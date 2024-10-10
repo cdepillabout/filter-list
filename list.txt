@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: cdepillabout filter list
 ! Description: Filter various annoying things on websites
-! Version: 1.0.20
+! Version: 1.0.21
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/cdepillabout/filter-list
 ! License: BSD3
@@ -104,19 +104,23 @@ stackoverflow.com###sidebar .s-sidebarwidget
 superuser.com###sidebar .js-sidebar-zone
 superuser.com###sidebar .s-sidebarwidget
 
-!!!!!!!!!!!!!
-!! Twitter !!
-!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!
+!! X / Twitter !!
+!!!!!!!!!!!!!!!!!
 
 ! I don't remember what this blocks.
 twitter.com##.conversations-enabled
+x.com##.conversations-enabled
 
 ! Block home timeline.
 twitter.com##div[aria-label$="Your Home Timeline"]
+x.com##div[aria-label$="Your Home Timeline"]
 twitter.com##div[aria-label$="Timeline: Your Home Timeline"]
+x.com##div[aria-label$="Timeline: Your Home Timeline"]
 
 ! List of "More Tweets" shown at the bottom of a page.
 twitter.com#?#div:-abp-has(> div > div > div > h2 > div > span:-abp-contains(More Tweets)) ~ div
+x.com#?#div:-abp-has(> div > div > div > h2 > div > span:-abp-contains(More Tweets)) ~ div
 
 !!!!!!!!!!!!!
 !! YouTube !!
