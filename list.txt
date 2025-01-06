@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: cdepillabout filter list
 ! Description: Filter various annoying things on websites
-! Version: 1.0.22
+! Version: 1.0.23
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/cdepillabout/filter-list
 ! License: BSD3
@@ -141,6 +141,9 @@ youtube.com##ytd-comments
 
 ! Block most content from the home page.
 youtube.com##ytd-browse[page-subtype="home"]
+
+! Block most content from the mobile browser home page.
+youtube.com##div[tab-identifier="FEwhat_to_watch"][tab-title="Home"]
 
 ! Block most content from the sidebar.
 youtube.com###related ytd-compact-radio-renderer
