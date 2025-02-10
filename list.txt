@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: cdepillabout filter list
 ! Description: Filter various annoying things on websites
-! Version: 1.0.23
+! Version: 1.0.24
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/cdepillabout/filter-list
 ! License: BSD3
@@ -46,8 +46,15 @@ hckrnews.com###page
 !! LinkedIn !!
 !!!!!!!!!!!!!!
 
-# Block the feed of posts on https://www.linkedin.com/feed/
+! Block the feed of posts on https://www.linkedin.com/feed/
 linkedin.com#?#div:-abp-has(> h1:-abp-contains(feed updates))
+
+!!!!!!!!!!!!!!
+!! Lobsters !!
+!!!!!!!!!!!!!!
+
+! Lobsters frontpage list of stories
+lobste.rs##ol.stories.list
 
 !!!!!!!!!!!!
 !! Medium !!
@@ -149,3 +156,7 @@ youtube.com##div[tab-identifier="FEwhat_to_watch"][tab-title="Home"]
 youtube.com###related ytd-compact-radio-renderer
 youtube.com###related ytd-compact-video-renderer
 youtube.com###related ytd-compact-playlist-renderer
+
+! Block most content from recommended videos on mobile browser.
+youtube.com##ytm-item-section-renderer[section-identifier="related-items"]
+youtube.com##ytm-structured-description-content-renderer > ytm-reel-shelf-renderer
