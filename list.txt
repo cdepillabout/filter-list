@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: cdepillabout filter list
 ! Description: Filter various annoying things on websites
-! Version: 1.0.25
+! Version: 1.0.26
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/cdepillabout/filter-list
 ! License: BSD3
@@ -154,6 +154,9 @@ youtube.com##div[tab-identifier="FEwhat_to_watch"][tab-title="Home"]
 
 ! Block the link to YouTube Shorts on the mobile browser home page.
 youtube.com##ytm-pivot-bar-item-renderer > div.pivot-shorts
+
+! Block the whole YouTbue Shorts video player page on mobile.
+youtube.com##shorts-video
 
 ! Block most content from the sidebar.
 youtube.com###related ytd-compact-radio-renderer
