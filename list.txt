@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: cdepillabout filter list
 ! Description: Filter various annoying things on websites
-! Version: 1.0.27
+! Version: 1.0.28
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/cdepillabout/filter-list
 ! License: BSD3
@@ -25,6 +25,13 @@
 
 ! Block GitHub repository recommendations.
 github.com##div[aria-label="Explore repositories"]
+
+!!!!!!!!!!!!!!!!!
+!! Google News !!
+!!!!!!!!!!!!!!!!!
+
+https://news.google.com
+
 
 !!!!!!!!!!!!!!!!!
 !! Hacker News !!
